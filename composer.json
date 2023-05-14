@@ -1,0 +1,25 @@
+{
+  "name": "isaac/php-pro",
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    },
+    "files": [
+      "app/helpers/constants.php",
+      "app/router/router.php",
+      "app/core/controller.php",
+      "app/database/connect.php",
+      "app/database/fetch.php"
+    ]
+  },
+  "scripts": {
+    "dev": "php -S localhost:3000 -t public"
+  },
+  "authors": [
+    {
+      "name": "isaacgoncod",
+      "email": "isaacgoncod@gmail.com"
+    }
+  ],
+  "require": {}
+}
